@@ -1,0 +1,2 @@
+<?php
+ Redux::setExtensions( 'redux_writer_theme', dirname( __FILE__ ) . '/extensions/' ); if ( file_exists( dirname( __FILE__ ) . '/configs/' ) ) { $files = glob( dirname( __FILE__ ) . '/configs/*.php' ); if ( ! empty( $files ) ) { foreach ( $files as $file ) { include $file; } } }

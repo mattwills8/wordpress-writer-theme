@@ -1,0 +1,17 @@
+.background-cover-center {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-cover-wrapper-width {
+    object-fit: cover;
+    min-width: 100%;
+    height: auto;
+}
+
+.img-cover-wrapper-height {
+    object-fit: cover;
+    min-height: 100%;
+    width: auto;
+}

@@ -1,0 +1,2 @@
+<?php
+ function writer_body_classes( $classes ) { if ( ! is_singular() ) { $classes[] = 'hfeed'; } return $classes; } add_filter( 'body_class', 'writer_body_classes' ); function writer_pingback_header() { if ( is_singular() && pings_open() ) { echo '<link rel="pingback" href="', esc_url( get_bloginfo( 'pingback_url' ) ), '">'; } } add_action( 'wp_head', 'writer_pingback_header' ); 

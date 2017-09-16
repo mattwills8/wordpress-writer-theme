@@ -1,0 +1,23 @@
+article.article-single {
+    text-align: center;
+    
+    .entry-header {
+        margin: 50px auto;
+        
+        .author-avatar-wrapper {
+            margin: 20px auto;
+            width: 100px;
+            height: 100px;
+            
+            .author-avatar {
+                @extend .img-cover-wrapper-height;
+                border-radius: 50%;
+            }
+        }
+    }
+    
+    .entry-content {
+        text-align: left;
+        padding: 0 15%;
+    }
+}

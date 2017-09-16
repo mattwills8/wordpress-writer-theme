@@ -1,0 +1,34 @@
+#masthead {
+
+    margin: {
+        bottom: 20px;
+    }
+    
+    #site-navigation {
+        background: transparent;
+        
+        ul#primary-menu {
+            width: 100%;
+            text-align: center;
+            
+            li.menu-item {
+                float: none;
+                display: inline-block;
+                margin: 5px 60px;
+                color: $theme_primary_color;
+            }
+        }
+    }
+    
+    &.masthead-featured-image {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        
+        #site-navigation {
+            position: absolute;
+            top: 0;
+            margin-bottom: 0;
+        }
+    }
+}
